@@ -1,0 +1,17 @@
+.navbar-root-container .menu-item-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  background-color: var(--navbar-bg-color);
+  color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.navbar-root-container .menu-item-container:hover {
+  background-color: #3f51b5;
+}
+
+.navbar-root-container .menu-item-container .menu-icon {
+  margin-right: 10px;
+}

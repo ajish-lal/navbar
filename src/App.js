@@ -1,7 +1,9 @@
 import React from 'react';
+import Navbar from './containers/Navbar';
+import { defaultConfig } from './utils/navbar-config';
 
 function App() {
-  return <div>Hello World from Navbar!</div>;
+  return <Navbar config={defaultConfig} />;
 }
 
 export default App;
